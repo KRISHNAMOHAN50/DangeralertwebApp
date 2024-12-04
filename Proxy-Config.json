@@ -1,0 +1,18 @@
+{
+    "/apilocal": {
+        "target": "http://localhost:5172/api/",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/apilocal": ""
+        }
+    },
+    "/apistate": {
+        "target": "http://localhost:5172/api/Alert/",
+        "secure": true,
+        "changeOrigin": true,
+        "pathRewrite": {
+            "^/apistate": ""
+        }
+    }
+}
